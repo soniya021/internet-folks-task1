@@ -20,7 +20,7 @@
     background-color: #fff;
     padding: 20px;
     text-align: center;
-    border: 1px solid #ddd;
+    border: 1px solid rgb(87, 87, 248);
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
@@ -40,4 +40,14 @@
       grid-template-columns: 1fr;
     }
   }
-  
+  .articles button{
+    border-radius: 40px;
+    color:black;
+    background-color:#fff;
+    font-weight:500;
+    border: 1px solid black;
+    padding: 10px 17px;
+  }
+  .articles h2{
+    text-align: left;
+  }

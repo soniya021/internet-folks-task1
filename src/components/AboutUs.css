@@ -23,4 +23,20 @@
   .about-image {
     max-width: 40%;
   }
-  
+  .about-us img{
+    /* position: absolute;
+    left:11%; */
+
+  }
+ .about-us{
+  background-color: aliceblue;
+ }
+ .btn2{
+  border-radius: 40px;
+    color:#fff;
+    background-color:#E23744;
+    font-weight:600;
+    border: 2px solid #fff;
+    padding: 10px 17px;
+ }
+ 

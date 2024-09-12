@@ -1,13 +1,49 @@
-import React from 'react';
-import './Articles.css';
+import React from "react";
+import "./Articles.css";
 
 const articles = [
-  { title: 'Grilled Tomatoes', img: '/images/tomatoes.svg' },
-  { title: 'Broccoli for Dinner', img: '/images/meals.svg' },
-  { title: 'Plant-based Lasagna', img: '/images/meals1.svg' },
-  { title: 'How to Grill Corn', img: '/images/tomatoes1.svg' },
-  { title: 'Crunchwrap Supreme', img: '/images/curd.svg' },
-  { title: 'Broccoli Cheese Soup', img: '/images/brocolli.svg' }
+  {
+    title: "Grilled Tomatoes at Home",
+    paragraph:
+      "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industrys standard dummy text eversince the 1500s ,when an unknown printer took a galley of type and",
+    button: "Read More",
+    img: "/images/tomatoes.svg",
+  },
+  {
+    title: "Snacks For Travel",
+    paragraph:
+      "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industrys standard dummy text eversince the 1500s ,when an unknown printer took a galley of type and",
+    button: "Read More",
+    img: "/images/meals.svg",
+  },
+  {
+    title: "Post-Workout Recipes",
+    paragraph:
+      "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industrys standard dummy text eversince the 1500s ,when an unknown printer took a galley of type and",
+    button: "Read More",
+    img: "/images/meals1.svg",
+  },
+  {
+    title: "How To Grill Corn",
+    paragraph:
+      "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industrys standard dummy text eversince the 1500s ,when an unknown printer took a galley of type and",
+    button: "Read More",
+    img: "/images/tomatoes1.svg",
+  },
+  {
+    title: "Crunchwrap Supreme",
+    paragraph:
+      "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industrys standard dummy text eversince the 1500s ,when an unknown printer took a galley of type and",
+    button: "Read More",
+    img: "/images/curd.svg",
+  },
+  {
+    title: "Brocoli Chese Soup",
+    paragraph:
+      "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industrys standard dummy text eversince the 1500s ,when an unknown printer took a galley of type and",
+    button: "Read More",
+    img: "/images/brocolli.svg",
+  },
 ];
 
 const Articles = () => {
@@ -19,6 +55,8 @@ const Articles = () => {
           <div key={index} className="article-card">
             <img src={article.img} alt={article.title} />
             <h3>{article.title}</h3>
+            <p>{article.paragraph}</p>
+            <button>{article.button}</button>
           </div>
         ))}
       </div>

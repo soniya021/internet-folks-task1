@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 50px;
-    background-color: #FFC857;
+    background-color: #fff;
   }
   
   .hero-content {
@@ -34,6 +34,44 @@
   
   .hero-image {
     max-width: 50%;
+    position: absolute;
+    left:47.3%;
+  }
+  .hero h1{
     
+    font-size: 3rem;
+    font-weight: 600;
+    color: #2D3047;
+  }
+  .hero h2{
+    position: absolute;
+    top:53%;
+    color:#E23744;
+  }
+  .hero b{
+    color: #2D3047;
+  }
+  .hero span{
+    position: absolute;
+    top:93%;
   }
   
+  .hero button{
+    position: absolute;
+    top:100%;
+    border-radius: 40px;
+    color:#fff;
+    background-color:#E23744;
+    font-weight:600;
+  }
+  .hero-image2{
+    position: absolute;
+    top:7%;
+  }
+  .hero-content .btn1{
+    position: absolute;
+    top:20%;
+    left:87%;
+    z-index: 2;
+    border: 2px solid #fff;
+  }
