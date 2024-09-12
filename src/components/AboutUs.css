@@ -1,0 +1,26 @@
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .about-text {
+    max-width: 500px;
+  }
+  
+  .about-us h2 {
+    font-size: 30px;
+    color: #2D3047;
+  }
+  
+  .about-us p {
+    font-size: 16px;
+    color: #2D3047;
+  }
+  
+  .about-image {
+    max-width: 40%;
+  }
+  

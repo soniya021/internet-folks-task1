@@ -1,0 +1,43 @@
+.articles {
+    padding: 50px;
+    background-color: #F4F4F9;
+  }
+  
+  .articles h2 {
+    font-size: 28px;
+    text-align: center;
+    color: #2D3047;
+    margin-bottom: 40px;
+  }
+  
+  .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  
+  .article-card {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .article-card h3 {
+    margin-top: 10px;
+    color: #2D3047;
+  }
+  
+  .article-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .articles-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

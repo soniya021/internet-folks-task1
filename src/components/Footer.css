@@ -1,0 +1,27 @@
+.footer {
+    background-color: #FFC857;
+    padding: 20px;
+    text-align: center;
+    color: #2D3047;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .icon-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #E9724C;
+    font-size: 16px;
+  }
+  
+  .icon-link:hover {
+    text-decoration: underline;
+  }
+  
