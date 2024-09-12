@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #FFC857; /* Using the Figma color */
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #E9724C;
+  }
+  
+  .nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #2D3047;
+    font-size: 18px;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+    }
+  
+    .nav a {
+      margin: 10px 0;
+    }
+  }
+  
