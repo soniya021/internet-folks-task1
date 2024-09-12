@@ -6,9 +6,9 @@ const Footer = () => {
     <footer className="footer">
       <p>&copy; {new Date().getFullYear()} Food Blog. All rights reserved.</p>
       <div className="social-icons">
-        <a href="#" className="icon-link">Facebook</a>
-        <a href="#" className="icon-link">Instagram</a>
-        <a href="#" className="icon-link">Twitter</a>
+        <button className="icon-link">Facebook</button>
+        <button className="icon-link">Instagram</button>
+        <button className="icon-link">Twitter</button>
       </div>
     </footer>
   );
