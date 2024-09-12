@@ -7,42 +7,42 @@ const articles = [
     paragraph:
       "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industrys standard dummy text eversince the 1500s ,when an unknown printer took a galley of type and",
     button: "Read More",
-    img: "/images/tomatoes.svg",
+    img: "/images/tomatoIcon.svg",
   },
   {
     title: "Snacks For Travel",
     paragraph:
       "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industrys standard dummy text eversince the 1500s ,when an unknown printer took a galley of type and",
     button: "Read More",
-    img: "/images/meals.svg",
+    img: "/images/mealsIcon.svg",
   },
   {
     title: "Post-Workout Recipes",
     paragraph:
       "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industrys standard dummy text eversince the 1500s ,when an unknown printer took a galley of type and",
     button: "Read More",
-    img: "/images/meals1.svg",
+    img: "/images/mealIcon.svg",
   },
   {
     title: "How To Grill Corn",
     paragraph:
       "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industrys standard dummy text eversince the 1500s ,when an unknown printer took a galley of type and",
     button: "Read More",
-    img: "/images/tomatoes1.svg",
+    img: "/images/tomatoesIcon.svg",
   },
   {
     title: "Crunchwrap Supreme",
     paragraph:
       "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industrys standard dummy text eversince the 1500s ,when an unknown printer took a galley of type and",
     button: "Read More",
-    img: "/images/curd.svg",
+    img: "/images/curdIcon.svg",
   },
   {
     title: "Brocoli Chese Soup",
     paragraph:
       "Lorem Ipsum is simply dummy text of the printing and typesettingindustry. Lorem Ipsum has been the industrys standard dummy text eversince the 1500s ,when an unknown printer took a galley of type and",
     button: "Read More",
-    img: "/images/brocolli.svg",
+    img: "/images/brocolliIcon.svg",
   },
 ];
 

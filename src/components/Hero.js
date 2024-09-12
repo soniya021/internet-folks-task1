@@ -19,9 +19,9 @@ const Hero = () => {
       </div>
       
       {/* <img src="images/pizza.jpg" alt="Pizza" className="hero-image" /> */}
-      <img src="/images/layout1.svg" alt="Pizza" className="hero-image1" />
-      <img src="/images/rectangle.svg" alt="Pizza" className="hero-image" />
-      <img src="/images/logoo.svg" alt="Pizza" className="hero-image2" />
+      <img src="/images/layoutIcon.svg" alt="Pizza" className="hero-image1" />
+      <img src="/images/rectangleIcon.svg" alt="Pizza" className="hero-image" />
+      <img src="/images/logoIcon.svg" alt="Pizza" className="hero-image2" />
     </section>
   );
 };
